@@ -36,7 +36,7 @@ const Footer = () => {
     <div className=" flex select-none text-sm  py-16 mt-16 flex-col h-max items-center mx-auto justify-center">
       <div className="flex justify-center space-x-4 md:space-x-6 dark:text-white/70 text-gray-500 text-[0.6rem] sm:text-xs md:text-sm lg:text-md mt-2">
         <Link
-          href="https://www.linkedin.com/in/pranjalshikhar"
+          href="https://www.linkedin.com/in/hansana-sandakelum-8280b2258/"
           target="blank"
           className=" dark:hover:text-purple-400 hover:text-purple-600 font-semibold"
         >
@@ -45,7 +45,7 @@ const Footer = () => {
           <Image src={LinkedIn} alt="linkedin" width="30" />
         </Link>
         <Link
-          href="https://github.com/pranjalshikhar?tab=repositories"
+          href="https://github.com/HansanaSandakelum"
           target="blank"
           className=" dark:hover:text-purple-400 hover:text-purple-600 font-semibold"
         >
@@ -54,7 +54,7 @@ const Footer = () => {
           <Image src={GitHub} alt="github" width="30" />
         </Link>
         <Link
-          href="https://www.behance.net/pranjalshikhar"
+          href=""
           target="blank"
           className=" dark:hover:text-purple-400 hover:text-purple-600 font-semibold"
         >
@@ -62,17 +62,17 @@ const Footer = () => {
           {/* Bēhance{" "} */}
           <Image src={Behance} alt="behnace" width="30" />
         </Link>
-        <a
+        {/* <a
           href="https://instagram.com/pranjal.fig"
           target="blank"
           className=" dark:hover:text-purple-400 hover:text-purple-600 font-semibold"
         >
           {" "}
-          {/* Instagram{" "} */}
+          
           <Image src={Instagram} alt="instagram" width="30" />
-        </a>
+        </a> */}
         <Link
-          href="mailto:shikhar.pranjal3@gmail.com"
+          href="mailto:hansanasndakalum@gmail.com"
           target="blank"
           rel="noreferrer"
           className=" dark:hover:text-purple-400 hover:text-purple-600 font-semibold"

@@ -72,7 +72,7 @@ export default function Home() {
               </h3>
             </div>
           </div>
-          <div className="mt-12 text-base md:text-xl lg:text-xl xl:text-xl 2xl:text-xl">
+          <div className="mt-12 text-base md:text-xl lg:text-lg xl:text-lg 2xl:text-lg">
             <p className="sm:leading-6 md:leading-6 lg:leading-8">
             I’m a an undergraduate at Sabaragamuwa University of Sri Lanka,
             interested in fullstack software engineering.  I focus on
