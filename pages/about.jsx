@@ -29,7 +29,7 @@ export default function About() {
   return (
     <div className="px-10 sm:px-20 md:px-32 lg:mb-12 lg:px-60 mx-auto max-w-[75rem]">
       <Head>
-        <title>about ✦ pranjal</title>
+        <title>about ✦ hansa</title>
         <link rel="icon" href="/Avatar-white.svg" />
       </Head>
       <main className="  max-w-screen ">
@@ -75,7 +75,7 @@ export default function About() {
               </svg>
             </div>
           </div>
-          <CategoryCard />
+          {/* <CategoryCard /> */}
           <div className=" text-[0.92rem] text-base mx-12 font-light dark:text-white text-gray-900">
             <p className="mt-6 mb-12 font-normal">
               Front-end Engineer who develops modern, reactive, and
@@ -87,21 +87,21 @@ export default function About() {
                   className="self-center w-5 h-5 mx-1"
                 />
               </span>{" "}
-              Believe a perfect blend of UI architecture is one, where the goals
-              and needs are accounted for in an elegant, efficient, and robust
-              design of the user interface{" "}
-              <span className="inline-flex items-baseline">
+              I am fascinated by how computer technology has brought changes
+              to our lives that could never have been predicted; Driven by a
+              passion for creating seamless user experiences, I am currently
+              focused on mastering full-stack development. By blending
+              creativity with technology, I aim to build innovative and
+              impactful solutions. Let's connect and collaborate to bring fresh
+              ideas to life!
+              {/* <span className="inline-flex items-baseline">
                 <Image
                   src={Sparkles}
                   alt="rocket"
                   className="self-center w-5 h-5 mx-1"
                 />
-              </span>{" "}
-              Experience in React.js, Next.js, and state management like
-              Redux.js with proficiency in web technologies like JavaScript,
-              Typescript, Tailwind CSS and SASS. building large-scale web
-              applications, cross-browser platforms, and design constraints on
-              the web, and building responsive user interfaces.{" "}
+              </span>{" "} */}
+        
               <span className="inline-flex items-baseline">
                 <Image
                   src={Flash}
@@ -119,30 +119,30 @@ export default function About() {
               While I may not be a widely recognized figure, i am readily
               available for connection on my social media platforms. <br />
               You can contact me on the{" "}
-              <span className="text-red-700 font-bold">GMail</span>{" "}
+              <span className="text-red-700 font-bold">Gmail</span>{" "}
               <a
                 onClick={() =>
-                  navigator.clipboard.writeText("shikhar.pranjal3@gmail.com")
+                  navigator.clipboard.writeText("hansanasndakalum@gmail.com")
                 }
                 className=" underline underline-offset-4 decoration-2 decoration-purple-400 group select-all font-semibold dark:hover:text-purple-400 hover:text-purple-700 cursor-pointer select "
                 href="mailto:shikhar.pranjal3@gmail.com"
               >
                 {" "}
-                shikhar.pranjal3@gmail.com
+                hansanasndakalum@gmail.com
               </a>{" "}
               or <span className="text-blue-700 font-bold">LinkedIn</span>{" "}
               <a
-                href="http://linkedin.com/in/pranjalshikhar"
+                href="https://www.linkedin.com/in/hansana-sandakelum-8280b2258/"
                 className=" underline underline-offset-4 decoration-2 decoration-purple-400 font-semibold dark:hover:text-purple-400 hover:text-purple-700 cursor-pointer select"
                 rel="noopener noreferrer"
                 target="blank"
               >
                 {" "}
-                Pranjal Shikhar Sinha{" "}
+                Hansana Sandakelum{" "}
               </a>{" "}
-              or you can DM me on{" "}
-              <span className="text-orange-500 font-bold">Instagram</span>{" "}
-              <a
+              
+             
+              {/* <a
                 href="https://instagram.com/pranjal.fig"
                 target="blank"
                 rel="noopener noreferrer"
@@ -150,7 +150,7 @@ export default function About() {
               >
                 {" "}
                 @pranjal.fig{" "}
-              </a>{" "}
+              </a>{" "} */}
             </p>
           </div>
           <div className="flex mx-auto justify-center mt-16 select-none">

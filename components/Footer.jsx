@@ -33,7 +33,7 @@ const Footer = () => {
   }, []);
 
   return (
-    <div className=" flex select-none text-sm  py-16 mt-16 flex-col h-max items-center mx-auto justify-center">
+    <div className=" flex select-none text-sm  py-8 mt-4 flex-col h-max items-center mx-auto justify-center">
       <div className="flex justify-center space-x-4 md:space-x-6 dark:text-white/70 text-gray-500 text-[0.6rem] sm:text-xs md:text-sm lg:text-md mt-2">
         <Link
           href="https://www.linkedin.com/in/hansana-sandakelum-8280b2258/"

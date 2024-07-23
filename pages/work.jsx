@@ -16,7 +16,7 @@ export default function Wok() {
   return (
     <div className="px-10 sm:px-20 md:px-32 md:-mb-52 lg:mb-0 lg:px-60 mx-auto max-w-[75rem]">
       <Head>
-        <title>work ✦ pranjal</title>
+        <title>work ✦ hansa</title>
         <link rel="icon" href="/Avatar-white.svg" />
       </Head>
       <main className="min-h-screen max-w-screen">
@@ -54,7 +54,7 @@ export default function Wok() {
             </svg>
           </div>
         </div>
-        <div className="mt-20 mb-20">
+        <div className="mt-20 mb-0">
           <ProjectCard />
         </div>
       </main>
